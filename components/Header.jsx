@@ -18,7 +18,7 @@ export const Header = () => {
           </Link>
         </div>
         {/* btns */}
-        <div className='flex items-center gap-3 md:gap-5 -mt-6 translate-y-7'>
+        <div className='flex items-center gap-3 md:gap-5 -mr-6 translate-y-7'>
           <button className='hidden md:flex items-center justify-center bg-brand-yellow rounded-xl p-2'>
             BNB Chain
           </button>
