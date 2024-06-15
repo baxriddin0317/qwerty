@@ -18,17 +18,17 @@ export const Header = () => {
           </Link>
         </div>
         {/* btns */}
-        <div className='flex items-center gap-3 md:gap-5'>
-          <button className='hidden md:flex items-center justify-center bg-brand-yellow rounded-xl px-4 py-2.5'>
+        <div className='flex items-center gap-3 md:gap-5 -mt-6 translate-y-7'>
+          <button className='hidden md:flex items-center justify-center bg-brand-yellow rounded-xl p-2'>
             BNB Chain
           </button>
-          <button className='flex md:hidden items-center justify-center gap-1 bg-brand-white rounded-xl px-4 py-2.5'>
+          <button className='flex md:hidden items-center justify-center gap-1 bg-brand-white rounded-xl p-2'>
             BNB
             <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" fill="none">
               <path d="M12.0416 7.08333L8.49998 10.625L4.95831 7.08333" stroke="#030303" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
-          <button className='flex gap-1.5 items-center justify-center bg-brand-sky rounded-xl px-4 py-2.5'>
+          <button className='flex gap-1.5 items-center justify-center bg-brand-sky rounded-xl p-2'>
             Connect <span className='hidden md:block'>Wallet</span>
           </button>
         </div>
