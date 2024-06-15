@@ -22,13 +22,13 @@ export const Header = () => {
           <button className='hidden md:flex h-14 text-lg items-center justify-center bg-brand-yellow rounded-xl px-8'>
             BNB Chain
           </button>
-          <button className='flex md:hidden h-10 md:h-14 items-center justify-center gap-1 bg-brand-white rounded-xl px-3 md:px-8'>
+          <button className='flex md:hidden items-center justify-center gap-1 bg-brand-white rounded-xl px-4 py-2.5'>
             BNB
             <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" fill="none">
               <path d="M12.0416 7.08333L8.49998 10.625L4.95831 7.08333" stroke="#030303" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
-          <button className='flex gap-1.5 h-10 md:h-14 md:text-lg items-center justify-center bg-brand-sky rounded-xl px-3 md:px-8'>
+          <button className='flex gap-1.5 items-center justify-center bg-brand-sky rounded-xl px-4 py-2.5'>
             Connect <span className='hidden md:block'>Wallet</span>
           </button>
         </div>
