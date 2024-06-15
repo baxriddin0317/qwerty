@@ -76,9 +76,4 @@ const links = [
     name: "Career",
     href: '#'
   },
-  {
-    id: 6,
-    name: "Career",
-    href: '#'
-  },
 ]
