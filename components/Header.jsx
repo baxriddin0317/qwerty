@@ -19,7 +19,7 @@ export const Header = () => {
         </div>
         {/* btns */}
         <div className='flex items-center gap-3 md:gap-5'>
-          <button className='hidden md:flex h-14 text-lg items-center justify-center bg-brand-yellow rounded-xl px-8'>
+          <button className='hidden md:flex items-center justify-center bg-brand-yellow rounded-xl px-4 py-2.5'>
             BNB Chain
           </button>
           <button className='flex md:hidden items-center justify-center gap-1 bg-brand-white rounded-xl px-4 py-2.5'>
