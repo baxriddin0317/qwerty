@@ -13,6 +13,7 @@ module.exports = {
             DEFAULT: "#441313",
             100: "#8B0101"
           },
+          'btn': 'rgb(21 17 17)',
           'yellow': "#FFD600",
           'sky': "#0FF",
           'white': "#FEFEFE",
