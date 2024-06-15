@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <header className='bg-brand-red py-5'>
+    <header className='bg-brand-red py-8'>
       <div className='flex items-center justify-between gap-2 mx-auto px-5 lg:px-8 py-1'>
         <div className='flex items-center gap-3'>
           {/* humburger btn */}
